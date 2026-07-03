@@ -1,0 +1,47 @@
+.root-container {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgb(24, 24, 28);
+}
+
+.titulo {
+    font-size: 24px;
+    -unity-font-style: bold;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.mensaje-error {
+    color: rgb(230, 80, 80);
+    margin-bottom: 8px;
+    white-space: normal;
+}
+
+.scroll-ranking {
+    flex-grow: 1;
+}
+
+.tabla-ranking {
+    flex-grow: 1;
+}
+
+.tabla-ranking > .unity-visual-element {
+    padding: 6px 4px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(60, 60, 65);
+}
+
+.fila-botones {
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.btn-inscribir {
+    align-self: flex-start;
+    padding: 6px 16px;
+    margin-right: 10px;
+}
+
+.btn-volver {
+    align-self: flex-start;
+}

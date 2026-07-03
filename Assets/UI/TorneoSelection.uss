@@ -1,0 +1,47 @@
+.root-container {
+    flex-grow: 1;
+    padding: 24px;
+    background-color: rgb(16, 17, 24);
+}
+
+.titulo {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: rgb(120, 200, 255);
+    margin-bottom: 14px;
+}
+
+.mensaje-error {
+    color: rgb(230, 80, 80);
+    margin-bottom: 8px;
+    white-space: normal;
+}
+
+.lista-torneos {
+    flex-grow: 1;
+    background-color: rgb(26, 27, 36);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.lista-torneos .unity-list-view__item {
+    background-color: rgb(35, 37, 48);
+    border-radius: 6px;
+    margin-bottom: 4px;
+    transition-property: background-color;
+    transition-duration: 0.15s;
+}
+
+.lista-torneos .unity-list-view__item:hover {
+    background-color: rgb(46, 49, 64);
+}
+
+.lista-torneos .unity-list-view__item--selected {
+    background-color: rgb(58, 96, 140);
+}
+
+.lista-torneos Label {
+    color: rgb(230, 230, 235);
+    font-size: 14px;
+    -unity-text-align: middle-left;
+}

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Inscripcion.uss" />
+
+    <ui:VisualElement name="root-container" class="root-container">
+
+        <ui:Label text="Inscribir jugador" name="titulo" class="titulo" />
+
+        <ui:TextField label="Nombre" name="input-nombre" class="campo" />
+        <ui:TextField label="Pais" name="input-pais" class="campo" />
+        <ui:TextField label="Rango" name="input-rango" class="campo" />
+
+        <ui:Button text="Inscribir" name="btn-inscribir" class="btn-inscribir" />
+
+        <ui:Label text="" name="mensaje-inscripcion" class="mensaje-inscripcion" />
+
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="Ranking.uss" />
+
+    <ui:VisualElement name="root-container" class="root-container">
+
+        <ui:Label text="Ranking del torneo" name="titulo" class="titulo" />
+
+        <ui:Label text="" name="mensaje-error-ranking" class="mensaje-error" />
+
+        <ui:ScrollView name="scroll-ranking" class="scroll-ranking">
+            <ui:VisualElement name="tabla-ranking" class="tabla-ranking" />
+        </ui:ScrollView>
+
+        <ui:VisualElement name="fila-botones" class="fila-botones">
+            <ui:Button text="Inscribirme" name="btn-inscribirme" class="btn-inscribir" />
+            <ui:Button text="Volver" name="btn-volver-ranking" class="btn-volver" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

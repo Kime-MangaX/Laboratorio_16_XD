@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="TorneoSelection.uss" />
+
+    <ui:VisualElement name="root-container" class="root-container">
+
+        <ui:Label text="Selecciona un torneo" name="titulo" class="titulo" />
+
+        <ui:Label text="" name="mensaje-error" class="mensaje-error" />
+
+        <ui:ListView name="lista-torneos" class="lista-torneos"
+                     fixed-item-height="48"
+                     show-border="false" />
+
+    </ui:VisualElement>
+</ui:UXML>

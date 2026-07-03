@@ -1,0 +1,64 @@
+.root-container {
+    flex-grow: 1;
+    padding: 28px;
+    background-color: rgb(16, 17, 24);
+}
+
+.titulo {
+    font-size: 26px;
+    -unity-font-style: bold;
+    color: rgb(120, 200, 255);
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 14px;
+    max-width: 420px;
+}
+
+.campo .unity-base-field__label {
+    color: rgb(200, 202, 210);
+    font-size: 13px;
+    min-width: 80px;
+}
+
+.campo .unity-base-field__input {
+    background-color: rgb(30, 32, 42);
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(55, 58, 72);
+    color: white;
+    padding: 6px 10px;
+}
+
+.campo .unity-base-field__input:focus {
+    border-color: rgb(90, 150, 220);
+}
+
+.btn-inscribir {
+    margin-top: 10px;
+    align-self: flex-start;
+    padding: 10px 24px;
+    background-color: rgb(58, 122, 200);
+    color: white;
+    border-radius: 6px;
+    border-width: 0;
+    font-size: 14px;
+    -unity-font-style: bold;
+    transition-property: background-color;
+    transition-duration: 0.15s;
+}
+
+.btn-inscribir:hover {
+    background-color: rgb(72, 140, 220);
+}
+
+.btn-inscribir:active {
+    background-color: rgb(48, 100, 170);
+}
+
+.mensaje-inscripcion {
+    margin-top: 16px;
+    font-size: 13px;
+    white-space: normal;
+}
